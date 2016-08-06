@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Classified Advertisement</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+</head>
+
+<body>
+<img src="img/fc.PNG" class="img-responsive center-block" alt="Cinque Terre" />
+  
+  <div class="container">
+  <div class="col-sm-2">
+	  <ul class="nav nav-pills nav-stacked" style="background-color: none; margin-right:0px;">
+		<li class="active"><a style="background: none; padding:0; margin:0" data-toggle="pill" href="#all"><img  src="img/i0.png" style="display:inline" class="img-responsive" alt="Cinque Terre"/></a></li>
+		<li><a style="background: none; padding:0; margin:0" data-toggle="pill" href="#vehicles"><img  src="img/i1.png" style="display:inline" class="img-responsive" alt="Cinque Terre"/></a></li>
+		<li><a style="background: none; padding:0; margin:0" data-toggle="pill" href="#mt"><img  src="img/i2.png" style="display:inline" class="img-responsive" alt="Cinque Terre"/></a></li>
+		<li><a style="background: none; padding:0; margin:0" data-toggle="pill" href="#happ"><img  src="img/i3.png" style="display:inline" class="img-responsive" alt="Cinque Terre" /></a></li>
+	  </ul>
+ </div>
+ 
+  <div class="tab-content" >
+		<div id="all" class="tab-pane fade in active">
+		  <h1>All Classifieds</h1>
+		  <div class="col-md-8">
+			<div class="row">
+				<div class="panel-group" id="allAds">
+				</div>
+			</div>
+		  </div>
+		</div>
+		<div id="vehicles" class="tab-pane fade">
+		  <h1>Vehicles</h1>
+			  <div class="col-md-8">
+				<div class="row">
+					<div class="panel-group" id="v">
+					</div>
+				</div>
+			  </div>
+		</div>
+		<div id="mt" class="tab-pane fade">
+		  <h2>Mobile & Tablets</h2>
+			  <div class="col-md-8">
+				<div class="row">
+					<div class="panel-group" id="mm">
+					</div>
+				</div>
+			  </div>
+		  </div>
+		  <div id="happ" class="tab-pane fade">
+		  <h1>Home Appliances</h1>
+			  <div class="col-md-8">
+				<div class="row">
+					<div class="panel-group" id="hh">
+					</div>
+				</div>
+			  </div>
+		  </div>
+		
+</div>
+</div>
+<script src="app.js"></script>
+</body>
+
+</html>
+
